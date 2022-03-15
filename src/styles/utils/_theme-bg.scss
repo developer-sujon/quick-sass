@@ -1,0 +1,67 @@
+$dark-bg: #1f2d3d;
+$dark-color: rgb(192, 204, 218);
+$dark-card: #253649;
+$dark-light: #1c2836;
+$dark-border: rgb(44, 64, 86);
+
+.dark-theme {
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4,
+  h5,
+  .h5,
+  h6,
+  .h6 {
+    color: $white;
+  }
+
+  b,
+  strong {
+    color: $white;
+  }
+
+  .bg-light {
+    background: $dark-light !important;
+  }
+
+  background-color: $dark-bg;
+  color: $dark-color;
+
+  .form-control,
+  .form-select {
+    background: $dark-bg;
+    border-color: $dark-border;
+    color: $dark-color;
+
+    &::-webkit-input-placeholder {
+      color: $dark-color;
+    }
+
+    &:-ms-input-placeholder {
+      color: $dark-color;
+    }
+
+    &::placeholder {
+      color: $dark-color;
+    }
+
+    &:hover {
+      border-color: $dark-border;
+      color: $dark-color;
+      background: $dark-bg;
+    }
+
+    &:focus,
+    &:active,
+    &.active {
+      border-color: $dark-border;
+      color: $dark-color;
+      background: $dark-bg;
+    }
+  }
+}

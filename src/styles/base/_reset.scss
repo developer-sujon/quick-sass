@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -15,6 +16,7 @@ a {
 
 img {
   border: 0;
+  max-width:100%
 }
 
 body {

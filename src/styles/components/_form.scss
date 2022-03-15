@@ -1,0 +1,72 @@
+.form-control {
+  border-radius: 5px;
+  height: 45px;
+  border: 1px solid $border-color;
+  padding: 0px 22px;
+  font-size: 14px;
+  font-weight: 500;
+  color: $dark;
+  transition: all 0.3s ease-in-out;
+  background: $white;
+
+  &::-webkit-input-placeholder {
+    color: $body-color;
+  }
+
+  &:-ms-input-placeholder {
+    color: $body-color;
+  }
+
+  &::placeholder {
+    color: $body-color;
+  }
+
+  &:hover {
+    box-shadow: none !important;
+    outline: none;
+    border-color: $border-color;
+    color: $dark;
+    background: $white;
+  }
+
+  &:focus,
+  &:active,
+  &.active {
+    box-shadow: none !important;
+    outline: none;
+    border-color: $primary;
+    color: $dark;
+    background: $white;
+  }
+}
+
+.form-select {
+  border-radius: 5px;
+  height: 45px;
+  border: 1px solid $border-color;
+  padding: 0px 22px;
+  font-size: 14px;
+  font-weight: 500;
+  color: $dark;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: none !important;
+    outline: none;
+    border-color: $border-color;
+    color: $dark;
+  }
+
+  &:focus,
+  &:active,
+  &.active {
+    box-shadow: none !important;
+    outline: none;
+    border-color: $primary;
+    color: $dark;
+  }
+}
+
+textarea.form-control {
+  min-height: 100px;
+}

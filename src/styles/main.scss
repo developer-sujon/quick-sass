@@ -1,17 +1,38 @@
+/*
+    Name: Mohammad
+    Author: Mohammad Sujon
+    Author Portfolio : https://themeforest.net/user/developer-sujon
+    Email: developersujon@yahoo.com
+    Github: https://github.com/developer-sujon
+
+    Table of Content:
+
+    1. Base
+    2. Utils
+    3. Component
+    4. Layout
+    6. Pages
+
+*/
+
 // base
-@import './base/reset';
-@import './base/typography';
+@import "./base/reset";
+@import "./base/font";
 
 // utils
-// @import './utils/variables';
+@import "./utils/variables";
+@import "./utils/theme-bg";
 
 // components
-// @import './components/buttons';
-// @import './components/header';
-// @import './components/quick-feature';
-// @import './components/logo-cloud';
-// @import './components/product';
-// @import './components/top_categories';
+@import "./components/color";
+@import "./components/shortcode";
+@import "./components/form";
+@import "./components/spacing";
+
+//layout
+@import "./layout/grid";
+@import "./layout/header";
+@import "./layout/footer";
 
 // pages
-// @import './pages/home';
+@import "./pages/home";
