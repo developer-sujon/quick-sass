@@ -15,10 +15,10 @@
     "scss",
     "quick-sass",
     "node-sass",
-     html-boilerplate,
-     html5,
-    "css",
-    "css3"
+     "html-boilerplate",
+     "html5",
+     "css",
+     "css3"
   ],
   "author": "Mohammad Sujon",
   "license": "ISC",
