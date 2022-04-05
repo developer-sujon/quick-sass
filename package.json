@@ -1,22 +1,24 @@
 {
   "name": "quick-node-sass",
   "version": "1.0.0",
-  "description": "Developer Sujon Quick SASS template",
+  "description": "Developer Sujon Quick SASS html boilerplate template",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "node-sass --watch src/styles/main.scss src/styles/main.css --source-map src/styles/main.map"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/developer-sujon"
+    "url": "https://github.com/developer-sujon/quick-sass"
   },
   "keywords": [
     "sass",
     "scss",
     "quick-sass",
     "node-sass",
-    "css"
+     html-boilerplate,
+     html5,
+    "css",
+    "css3"
   ],
   "author": "Mohammad Sujon",
   "license": "ISC",
